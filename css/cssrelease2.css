@@ -8,3 +8,6 @@ body,html{height:100%;padding:0px;margin:0px;background-image:url("../img/galaxy
 #cpanel{width: 200px; height:100ox; position: fixed; top:-9px; left:-30px; text-align: center; list-style-type: none; color: white;}
 #hidem,#showm{float:right}
 #menu{width: 200px; height:100px; position: fixed; left: 230px;}
+#ajustesiconoajustes{position: fixed;right:0px;width: 25%;height: fixed;top:250px;}
+#ajustesiconoaltavoz{position: fixed;right: 0px; top: 19%;width: 25%;height: fixed;top:320px;}
+#ajustesiconopause{position: fixed;right: 0px;top: 30%;width: 25%;height: fixed;top:400px;}
