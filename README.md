@@ -8,7 +8,7 @@ El **fondo** del videojuego ha sido colocado **correctamente**. Como la imagen d
 
 ####SUELO LUNAR
 
-El **suelo lunar** hse ha implementado correctamente en ambos modelos del videojuego.
+El **suelo lunar** se ha implementado correctamente en ambos modelos del videojuego.
 
 ####TABLA INFORMATIVA
 
