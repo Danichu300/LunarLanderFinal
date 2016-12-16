@@ -8,19 +8,15 @@ El **fondo** del videojuego ha sido colocado **correctamente**. Como la imagen d
 
 ####SUELO LUNAR
 
-El **suelo lunar** ha requerido colocar un _div_ que indique que su posición ha de estar en la parte de abajo. Presenta un 
+El **suelo lunar** hse ha implementado correctamente en ambos modelos del videojuego.
 
-####DIMENSIONES
+####TABLA INFORMATIVA
 
-Las **dimensiones** de las imágenes e iconos ha sido lo que más problemas ha dado. En el _modelo horizontal_ la **nave** resultaba **muy grande** por lo que tuve que reducir su tamaño. Las **letras** de la tabla informativa del juego tiene un tamaño que es el **aceptable** pero a pesar de ello se lee con facilidad.Los **iconos** tienen un tamaño y una separación **aceptables**. En el _modelo vertical_, en cambio, la tabla de información presenta el **mínimo considerablemente correcto**. Además los **iconos** se muestran de un tamaño que **personalmente** considero **correctos** ya que a pesar de que no sean muy grandes tienen un tamaño que fácilmente _todas las personas_ pueden pulsar sin problemas. 
-
-####TABLAS INFORMATIVAS
-
-El juego contiene **dos tablas** (una en cada modelo de pantalla) que informan al jugador sobre la velocidad, altura y nivel de combustible actual de la nave. Así el jugador en todo momento tiene un **control total de la situación**. La tabla presenta está situada en la parte superior izquierda de la pantalla. He intentado colocarlo en la parte inferior izquierda, pero hay un **error que no encuentro**, por lo que no puedo posicionarlo exactamente donde quiero.
+El juego contiene **una tabla**  que informan al jugador sobre la velocidad, altura y nivel de combustible actual de la nave. Así el jugador en todo momento tiene un **control total de la situación**. La tabla presenta está situada en la parte superior izquierda de la pantalla. 
 
 ####PANEL DE INSTRUCCIONES
 
-He creado un **html aparte** para que el jugador pueda ver las instrucciones del juego. Para ello, a través del icono de **Ajustes** al hacer clic redirecciona al html de las instrucciones. El _css_ está guardado en el mismo css que la página principal para ambos modelos. Las letras son blancas para que se vean con el fondo negro.
+Las instrucciones del videojuego se pueden ver haciendo click a **Instrucciones**.
 
 ####ICONOS
 
