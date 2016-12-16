@@ -24,7 +24,7 @@ Los iconos en el _modelo horizontal_ se muestran separados a una distancia mas o
 
 ####ABOUT
 
-He creado **dos html aparte** (uno para el _modelo horizontal_ y uno para el _modelo vertical_) para el apartado del _Acerca de..._Aquí se muestra el desarrollador del videojuego, el cliente y las fuentes de información acudidas para la realización del proyecto.
+Se ha creado **un html aparte** para el apartado del _About..._Aquí se muestra el desarrollador del videojuego, el cliente y las fuentes de información acudidas para la realización del proyecto.
 
 ####PROBLEMAS ENCONTRADOS
 
@@ -39,3 +39,11 @@ He creado **dos html aparte** (uno para el _modelo horizontal_ y uno para el _mo
 - En el documento original el **panel de fuel, velocidad y altura** aparece en la **parte inferior izquierda**, pero yo la he colocado en la **parte superior izquierda** para que se vea mejor con el contraste de color de la letra con el fondo y así aprovechar el espacio para poner un apartado de _About_.
 
 - Se ha añadido un _sprite_ de **nave con fuego** para que se active cuando la nave sube. Además se ha implementado una **explosión** para cuando la nave aterrice con una velocidad mayor que la permitida (v>3) o se haya quedado sin fuel.
+
+####JAVASCRIPT
+
+En el Javascript se han implementado las funciones de encender y apagar el motor, así como unas funciones que regulan que se muestre y se vaya actualizando el nivel de combustible, la altura y la velocidad.
+
+####RESULTADO FINAL: QUÉ HACE Y QUÉ NO HACE LA NAVE
+
+La nave desciende y se eleva perfectamente. El combustible también se vacía satisfactoriamente. El aterrizaje se realiza con éxito. El cambio de sprite y la explosión están implementados pero comentados ya que no funcionan por un simple error sintáctico que no se encuentra, pero el código en sí está bien escrito.
