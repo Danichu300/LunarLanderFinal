@@ -41,7 +41,7 @@ function stop(){
 }
 
 function moverNave(){
-	if(a = -g && fuel = 0){ a = g;}
+	//if(a = -g && fuel = 0){ a = g;}
 	v +=a*dt;
 	document.getElementById("velocidad").innerHTML=v;
 	y +=v*dt;
@@ -55,7 +55,7 @@ function moverNave(){
 			if(fuel<0 || v>=3 || y<=0 ){
 		 
 		document.getElementById('nave').src = "..\img\explosion.gif";
-		alert("Has Perdido");
+			alert("Has Perdido");}
 		
 	} */else { 
 		stop();
@@ -67,7 +67,7 @@ function motorOn(){
 	if(fueltimer==null)
 		fueltimer=setInterval(function(){ restarFuel(); }, 100);
 	a=-g;
-	document.getElementById('nave').src = "../img/rocket1.png";
+	//document.getElementById('nave').src = "../img/rocket1.png"";
 }
 
 function motorOff(){

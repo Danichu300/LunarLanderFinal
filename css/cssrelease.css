@@ -6,10 +6,17 @@ body,html{height:100%;padding:0px;margin:0px;background-image:url("../img/galaxy
 .d{height:30%;width:100%;position:fixed;bottom:0px; background-image:url("../img/luna.png")}
 #nave{text-align:center;position:fixed;top:10%;width:100%;height:20%; z-index:1;}
 #nave img{height:100%;}
-#cpanel{color: white;}
+#cpanel{color: white; list-style: none;}
 #hidem,#showm{display:none;}
-#menu{color: white;}
+#menu{color: white;list-style: none;}
 #texto{color: white;width: 200px;}
 #menu-informacion-grande{background: transparent;width: 300px;height: 300px;font-size: 40px;font-style: bold;}
 #textopeque{color: white; width: 1000px;}
+#volver{position: fixed;bottom: 0px;left: 0px;width: 120px;height: 250px;}
+#ajustesiconoajustes{position: fixed; right:0px; top: 30px; width: fixed; height: fixed;}
+#ajustesiconoaltavoz{position: fixed; right: 0px; top: 120px; width: fixed;height: fixed;}
+#ajustesiconopause{position: fixed;right: 0px;top: 190px;width: fixed;height: fixed;}
+#menu-informacion{background: transparent;width: 800px;height: 320px;font-size:250%;}
+#textopeque{color: white;width: 1000px;}
+#textotitulo{color: white;width: 500px;}
 #volver{position: fixed;bottom: 0px;left: 0px;width: 120px;height: 250px;}
